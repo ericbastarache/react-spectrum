@@ -3,9 +3,13 @@ import React, { Component } from 'react';
 import Spectrum from '../components/Spectrum/Spectrum';
 
 class SpectrumContainer extends Component {
-    render () {
+    render() {
         return (
-            <Spectrum />
+            <Spectrum
+                handleChange={this.handleChange}
+                onSelect={this.onSelect}
+
+            />
         );
     }
 }
