@@ -1,0 +1,13 @@
+input[type="text"] {
+	padding: 5px 8px;
+	border-radius: 5px;
+}
+
+label {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+div.push-down {
+	margin-top: 25px;
+}
