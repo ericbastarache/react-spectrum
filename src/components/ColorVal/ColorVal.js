@@ -6,7 +6,7 @@ class ColorVal extends Component {
 		return (
 			<div className="push-down">
 				<label>
-					{this.props.identifier.split("-").join(" ")} :
+					{this.props.identifier.split("-").join(" ")}:
 				</label>
 				<input
 					id={this.props.identifier}
