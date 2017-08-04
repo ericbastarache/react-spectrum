@@ -6,6 +6,7 @@ input[type="text"] {
 label {
 	color: #fff;
 	text-transform: uppercase;
+	padding-right: 10px;
 }
 
 div.push-down {
