@@ -1,0 +1,19 @@
+.btn-add-swatch {
+    padding: 13px 25px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to bottom, #ff0000, darkred);
+    color: #fff;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+}
+
+.btn-add-swatch:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #fff;
+}
+
+Button {
+    margin: 20px 0px 20px 0px;
+}
