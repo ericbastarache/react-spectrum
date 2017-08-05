@@ -8,6 +8,11 @@
     animation: fadeIn 3s ease-in;
     -webkit-animation: fadeIn 3s ease-in;
     cursor: pointer;
+
+}
+
+span {
+    cursor: pointer;
     text-shadow: 1px 1px 1px #000;
     color: #ff0000;
     font-weight: bold;
@@ -21,8 +26,7 @@
 
 .col-text {
     color: #000;
-    text-shadow: 0px 0px 0px;
-    font-weight: normal;
+    text-shadow: 0px 1px 0px #000;
     background: transparent;
 }
 
