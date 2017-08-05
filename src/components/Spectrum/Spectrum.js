@@ -8,9 +8,8 @@ class Spectrum extends Component {
 				<input
 					type="color"
 					onInput={this.props.handleInput}
-					onMouseMove={this.props.onSelect}
-					onMouseDown={this.props.handleMouseDown}
-					onMouseUp={this.props.handleMouseUp}
+					onChange={this.props.extColChange}
+					value={this.props.initialVal}
 				/>
 			</div>
 		);
