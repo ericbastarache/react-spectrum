@@ -93,7 +93,7 @@ class SpectrumContainer extends Component {
 					/>
 					<Canvas CanvasWidth="150" CanvasHeight="150" Color={this.state.color} />
 					<ColorVal identifier="hex-value" setVal={this.state.colorValue} handleColorChange={this.handleColorChange} />
-					<ColorVal identifier="rgb-value" setVal={this.state.rgbValue} handleColorChange={this.handleColorChange} />
+					<ColorVal isEnabled="disabled" identifier="rgb-value" setVal={this.state.rgbValue} handleColorChange={this.handleColorChange} />
 					<Button btnId="add-swatch" buttonText="Add Swatch" onClick={this.handleClick} />
 				</div>
 				<div className="swatch-panel">
