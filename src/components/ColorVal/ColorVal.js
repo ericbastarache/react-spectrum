@@ -12,6 +12,7 @@ class ColorVal extends Component {
 					id={this.props.identifier}
 					type="text"
 					placeholder="Color value"
+					onChange={this.props.handleColorChange}
 					value={this.props.setVal}
 				/>
 			</div>
