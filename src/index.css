@@ -8,3 +8,9 @@ body {
 .more-space {
 	margin-left: 45%;
 }
+
+.swatch-panel {
+	width: 100%;
+	border: 1px solid #cdcdcd;
+	height: auto;
+}
