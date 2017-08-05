@@ -14,6 +14,7 @@ class ColorVal extends Component {
 					placeholder="Color value"
 					onChange={this.props.handleColorChange}
 					value={this.props.setVal}
+					disabled={this.props.isEnabled}
 				/>
 			</div>
 		);
