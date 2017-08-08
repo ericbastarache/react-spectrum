@@ -10,3 +10,7 @@
 4. Run `yarn start` or `npm start` to run the project
 
 That's it!
+
+## Live
+
+See it in action at https://react-colorpick.herokuapp.com/
