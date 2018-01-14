@@ -66,6 +66,10 @@ class SpectrumContainer extends Component {
 		})
 	}
 
+	clicky = e => {
+		console.log('clicked');
+	}
+
 	handleExternalCol = e => {
 		this.setState({
 			color: e.target.value,
